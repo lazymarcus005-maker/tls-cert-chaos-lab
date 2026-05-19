@@ -1,0 +1,10 @@
+{
+  "name": "tls-gateway-chaos-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm run --parallel dev",
+    "dev:api": "pnpm --filter api dev",
+    "dev:web": "pnpm --filter web dev"
+  }
+}
